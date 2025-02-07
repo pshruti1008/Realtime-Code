@@ -4,7 +4,7 @@ import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
 import { saveAs } from "file-saver";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://coderoom-2rap.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
