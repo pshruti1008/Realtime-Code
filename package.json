@@ -4,10 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js"
+    "dev": "nodemon backend/index.js",
+    "build" :"npm install && cd frontend/vite-project && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "axios": "^1.7.9",
     "express": "^4.21.2",
     "file-saver": "^2.0.5",
+    "react-scripts": "^3.0.1",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
